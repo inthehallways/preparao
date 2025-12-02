@@ -9,6 +9,7 @@
 
 body{
   min-height: 100vh;
+  background-color: #e4e2dd;
 }
 
 a{
@@ -19,4 +20,13 @@ a{
 .app{
   width: 80%;
   margin: auto;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
