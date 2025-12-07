@@ -7,9 +7,6 @@ import menu_2 from './menu_2.png'
 import menu_3 from './menu_3.png'
 import menu_4 from './menu_4.png'
 import menu_5 from './menu_5.png'
-import menu_6 from './menu_6.png'
-import menu_7 from './menu_7.png'
-import menu_8 from './menu_8.png'
 
 import food_1 from './food_1.png'
 import food_2 from './food_2.png'
@@ -31,18 +28,6 @@ import food_17 from './food_17.png'
 import food_18 from './food_18.png'
 import food_19 from './food_19.png'
 import food_20 from './food_20.png'
-import food_21 from './food_21.png'
-import food_22 from './food_22.png'
-import food_23 from './food_23.png'
-import food_24 from './food_24.png'
-import food_25 from './food_25.png'
-import food_26 from './food_26.png'
-import food_27 from './food_27.png'
-import food_28 from './food_28.png'
-import food_29 from './food_29.png'
-import food_30 from './food_30.png'
-import food_31 from './food_31.png'
-import food_32 from './food_32.png'
 
 import add_icon_white from './add_icon_white.png'
 import add_icon_green from './add_icon_green.png'
@@ -84,267 +69,168 @@ export const assets = {
 
 export const menu_list = [
     {
-        menu_name: "Salad",
+        menu_name: "Low Carb Keto",
         menu_image: menu_1
     },
     {
-        menu_name: "Rolls",
+        menu_name: "Plant Based",
         menu_image: menu_2
     },
     {
-        menu_name: "Deserts",
+        menu_name: "High Protein",
         menu_image: menu_3
     },
     {
-        menu_name: "Sandwich",
+        menu_name: "Diabetes Friendly",
         menu_image: menu_4
     },
     {
-        menu_name: "Cake",
+        menu_name: "Healthy Heart",
         menu_image: menu_5
-    },
-    {
-        menu_name: "Pure Veg",
-        menu_image: menu_6
-    },
-    {
-        menu_name: "Pasta",
-        menu_image: menu_7
-    },
-    {
-        menu_name: "Noodles",
-        menu_image: menu_8
     }]
 
 export const food_list = [
     {
         _id: "1",
-        name: "Greek salad",
+        name: "Garlic Butter Steak Bites",
         image: food_1,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        description: "Melt-in-your-mouth steak cubes seared in savory garlic butter, served with a side of perfectly roasted broccoli..",
+        category: "Low Carb Keto"
     },
     {
         _id: "2",
-        name: "Veg salad",
+        name: "2 Pesto Chicken & Cauliflower Rice",
         image: food_2,
         price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        description: "Tender grilled chicken breast coated in vibrant basil pesto, paired with light and fluffy cauliflower rice.",
+        category: "Low Carb Keto"
     }, {
         _id: "3",
-        name: "Clover Salad",
+        name: "Keto Burger Bowl",
         image: food_3,
         price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        description: "All the flavor of a cheeseburger without the bun; a juicy beef patty served over fresh greens with pickles, cheddar, and savory sauce",
+        category: "Low Carb Keto"
     }, {
         _id: "4",
-        name: "Chicken Salad",
+        name: "Zucchini Noodle Carbonara",
         image: food_4,
         price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        description: "A guilt-free twist on the classic, featuring fresh zucchini spirals tossed in a rich, creamy sauce with crispy bacon bits.",
+        category: "Low Carb Keto"
     }, {
         _id: "5",
-        name: "Lasagna Rolls",
+        name: "Chickpea Tikka Masala",
         image: food_5,
         price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        description: "Creamy, spiced coconut curry simmered with tender chickpeas and served alongside fluffy basmati rice.",
+        category: "Plant Based"
     }, {
         _id: "6",
-        name: "Peri Peri Rolls",
+        name: "Crispy Tofu Poke Bowl",
         image: food_6,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        description: "Marinated tofu cubes served over sushi rice with edamame, shredded carrots, and a sprinkle of sesame seeds.",
+        category: "Plant Based"
     }, {
         _id: "7",
-        name: "Chicken Rolls",
+        name: "Black Bean Enchilada Casserole",
         image: food_7,
         price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        description: "Layers of corn tortillas, spiced black beans, corn, and enchilada sauce baked to perfection with vegan cheese.",
+        category: "Plant Based"
     }, {
         _id: "8",
-        name: "Veg Rolls",
+        name: "Roasted Veggie & Hummus Wrap",
         image: food_8,
         price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        description: "A satisfying wrap filled with smoky roasted peppers, zucchini, eggplant, and a thick layer of creamy garlic hummus.",
+        category: "Plant Based"
     }, {
         _id: "9",
-        name: "Ripple Ice Cream",
+        name: "Steak & Sweet Potato Box",
         image: food_9,
         price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
-    }, {
-        _id: "10",
-        name: "Fruit Ice Cream",
-        image: food_10,
-        price: 22,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        description: "The ultimate post-workout fuel featuring lean sliced steak, roasted sweet potato wedges, and steamed green beans.",
+        category: "High Protein"
     }, {
         _id: "11",
-        name: "Jar Ice Cream",
+        name: "Lemon-Garlic Salmon",
         image: food_11,
+        price: 22,
+        description: "A protein powerhouse featuring baked salmon fillet with a zesty lemon-garlic glaze and fresh asparagus.",
+        category: "High Protein"
+    }, {
+        _id: "10",
+        name: "Turkey Meatballs with Quinoa",
+        image: food_10,
         price: 10,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        description: "Herb-infused lean turkey meatballs simmered in marinara sauce and served over a bed of protein-packed quinoa.",
+        category: "High Protein"
     }, {
         _id: "12",
-        name: "Vanilla Ice Cream",
+        name: "Chicken Burrito Bowl",
         image: food_12,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        description: "A deconstructed favorite with grilled chicken, black beans, corn salsa, and brown rice for sustained energy.",
+        category: "High Protein"
     },
     {
         _id: "13",
-        name: "Chicken Sandwich",
+        name: "Baked White Fish & Green",
         image: food_13,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        description: "A light and blood-sugar-friendly meal with flaky white fish, lemon herbs, and a side of sautéed garlic spinach.",
+        category: "Diabetes Friendly"
     },
     {
         _id: "14",
-        name: "Vegan Sandwich",
+        name: "Lentil Shepherd’s Pie",
         image: food_14,
         price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        description: "Comfort food reimagined with a savory lentil and vegetable filling topped with a nutrient-dense mashed sweet potato crust.",
+        category: "Diabetes Friendly"
     }, {
         _id: "15",
-        name: "Grilled Sandwich",
+        name: "Turkey Chili with Beans",
         image: food_15,
         price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        description: "A hearty, fiber-rich chili made with lean ground turkey, kidney beans, and mild spices to keep you full and balanced.",
+        category: "Diabetes Friendly"
     }, {
         _id: "16",
-        name: "Bread Sandwich",
+        name: "Mediterranean Chicken Salad",
         image: food_16,
         price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        description: "A fresh mix of grilled chicken, cucumbers, olives, and chickpeas tossed in a heart-healthy olive oil vinaigrette.",
+        category: "Diabetes Friendly"
     }, {
         _id: "17",
-        name: "Cup Cake",
+        name: "Oatmeal Breakfast Cup",
         image: food_17,
         price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        description: "Start your day right with steel-cut oats topped with antioxidant-rich berries and crunchy walnuts.",
+        category: "Healthy Heart"
     }, {
         _id: "18",
-        name: "Vegan Cake",
+        name: "Lemon-Herb Grilled Chicken",
         image: food_18,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        description: "Juicy grilled chicken breast seasoned with zesty lemon and herbs (no salt added), served with steamed green beans.",
+        category: "Healthy Heart"
     }, {
         _id: "19",
-        name: "Butterscotch Cake",
+        name: "Honey-Glazed Salmon",
         image: food_19,
         price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        description: "Rich in Omega-3s, this oven-baked salmon is finished with a light, sweet honey-soy glaze and roasted Brussels sprouts.",
+        category: "Healthy Heart"
     }, {
         _id: "20",
-        name: "Sliced Cake",
+        name: "Avocado & Bean Salad",
         image: food_20,
         price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
-    }, {
-        _id: "21",
-        name: "Garlic Mushroom ",
-        image: food_21,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
-    }, {
-        _id: "22",
-        name: "Fried Cauliflower",
-        image: food_22,
-        price: 22,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
-    }, {
-        _id: "23",
-        name: "Mix Veg Pulao",
-        image: food_23,
-        price: 10,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
-    }, {
-        _id: "24",
-        name: "Rice Zucchini",
-        image: food_24,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
-    },
-    {
-        _id: "25",
-        name: "Cheese Pasta",
-        image: food_25,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
-    },
-    {
-        _id: "26",
-        name: "Tomato Pasta",
-        image: food_26,
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
-    }, {
-        _id: "27",
-        name: "Creamy Pasta",
-        image: food_27,
-        price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
-    }, {
-        _id: "28",
-        name: "Chicken Pasta",
-        image: food_28,
-        price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
-    }, {
-        _id: "29",
-        name: "Buttter Noodles",
-        image: food_29,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
-    }, {
-        _id: "30",
-        name: "Veg Noodles",
-        image: food_30,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
-    }, {
-        _id: "31",
-        name: "Somen Noodles",
-        image: food_31,
-        price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
-    }, {
-        _id: "32",
-        name: "Cooked Noodles",
-        image: food_32,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
-    }
-]
+        description: "A refreshing, nutrient-dense salad combining creamy avocado chunks, black beans, corn, and lime dressing.",
+        category: "Healthy Heart"
+    }]
