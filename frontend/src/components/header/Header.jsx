@@ -6,7 +6,7 @@ const Header = () => {
     <div className='header'>
         <div className="header-contents">
             <h2> Order your favorite food here </h2>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p> Experience the perfect balance of flavor and nutrition. Our chefs craft a rotating menu of wholesome dishes that prove healthy eating doesn't have to be boring.</p>
             <button>View Menu</button>
         </div>
     </div>
