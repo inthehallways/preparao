@@ -31,17 +31,17 @@ const PlaceOrder = () => {
           <div>
             <div className="cart-total-details">
               <p>Subtotal</p>
-              <p>{getTotalCartAmount()} PHP</p>
+              <p>{getTotalCartAmount()} USD</p>
             </div>
             <hr />
             <div className="cart-total-details">
               <p>Delivery Fee</p>
-              <p>{getTotalCartAmount() === 0 ? 0 : 2} PHP</p>
+              <p>{getTotalCartAmount() === 0 ? 0 : 2} USD</p>
             </div>
             <hr/>
             <div className="cart-total-details">
               <b>Total</b>
-              <b>{getTotalCartAmount() === 0 ? 0 : getTotalCartAmount() +2} PHP</b>
+              <b>{getTotalCartAmount() === 0 ? 0 : getTotalCartAmount() +2} USD</b>
             </div>
           </div>
           <button>PROCEED TO PAYMENT</button>

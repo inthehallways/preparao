@@ -36,6 +36,7 @@
     gap: 15px;           
 }
 .footer-social-icons img {
+    margin-top: 10px;
     width: 50px; 
     cursor: pointer;
 }
