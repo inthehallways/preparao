@@ -20,13 +20,15 @@
 
 .header-contents h2 {
     font-weight: 500;
-    color: #e4e2dd;
+    color: #FFE082;
     font-size: max(4.5vw, 22px);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
 }
 
 .header-contents p {
-    color: #e4e2dd;
+    color: #FAF3E0;
     font-size: 1vw;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
 }
 
 .header-contents button {
