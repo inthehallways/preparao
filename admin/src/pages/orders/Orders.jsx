@@ -61,9 +61,9 @@ const statusHandler = async (event, orderId) => {
             <p>Items: {order.items.length}</p>
             <p>${order.amount}</p>
             <select onChange={(event) => statusHandler(event, order._id)} value={order.status}>
-              <options value="Food Processing">Food Processing</options>
-              <options value="Out for Delivery">Out for Delivery</options>
-              <options value="Delivered">Delivered</options>
+              <option value="Food Processing">Food Processing</option>
+              <option value="Out for Delivery">Out for Delivery</option>
+              <option value="Delivered">Delivered</option>
             </select>
           </div>
         ))}
