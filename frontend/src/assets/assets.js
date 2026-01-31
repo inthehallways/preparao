@@ -95,12 +95,12 @@ export const food_list = [
         name: "Garlic Butter Steak Bites",
         image: food_1,
         price: 12,
-        description: "Melt-in-your-mouth steak cubes seared in savory garlic butter, served with a side of perfectly roasted broccoli..",
+        description: "Melt-in-your-mouth steak cubes seared in savory garlic butter, served with a side of perfectly roasted broccoli.",
         category: "Low Carb Keto"
     },
     {
         _id: "2",
-        name: "2 Pesto Chicken & Cauliflower Rice",
+        name: "Pesto Chicken & Cauliflower Rice",
         image: food_2,
         price: 18,
         description: "Tender grilled chicken breast coated in vibrant basil pesto, paired with light and fluffy cauliflower rice.",
