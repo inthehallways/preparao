@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+package-lock.json  # Optional: Some teams keep this, but for solo learning, you can ignore it if you want fewer files. Usually, keep it.
+
+# Environment variables (SECURITY RISK if uploaded)
+.env
+
+# Logs
+npm-debug.log
+yarn-error.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
